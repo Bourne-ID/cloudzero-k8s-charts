@@ -70,3 +70,6 @@ daemonsetLabels: {}
 #openshift: true
 
 metricsCollectionInterval: 120
+
+# For AWS EC2 use - Avoids the use of IMDS for discovery
+#runInAws: true
